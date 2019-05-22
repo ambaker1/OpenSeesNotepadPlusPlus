@@ -3,7 +3,7 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 
 Instructions:
 1.) OpenSees Language:
-  To have a User-Defined language that formats OpenSees files according to OpenSees and Tcl commands,
+  *To have a User-Defined language that formats OpenSees files according to OpenSees and Tcl commands,*
   
   Download the OpenSeesLang.xml file in the repository
   Open your Notepad++, select "Language" on the menu bar, and choose "Define your language".
@@ -12,10 +12,12 @@ Instructions:
   When in a .tcl file, select "Language", and choose "OpenSees".
   
 2.) Running OpenSees in Notepad++:
-  _To run a Tcl file in OpenSees directly from Notepad++,_
+  *To run a Tcl file in OpenSees directly from Notepad++,*
   
   Press F5, and in the run command box, put the following:
+  
   cmd /K cd /d "$(CURRENT_DIRECTORY)" && "C:\Program Files\OpenSees\OpenSees.exe" "$(FULL_CURRENT_PATH)"
+  
   *Note: If your OpenSees program is somewhere else, you may need to adjust that portion.*
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
   
