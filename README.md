@@ -5,18 +5,19 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
   *A User-Defined language that formats OpenSees files according to OpenSees and Tcl commands.*
   
   **Installation Instructions**\
-  Download the OpenSeesLang.xml file in the repository
-  Open your Notepad++, select "Language" on the menu bar, and choose "Define your Language".
-  Press the "Import" button, and select the OpenSeesLang.xml file.
-  Restart Notepad++.
-  When in a .tcl file, select "Language", and choose "OpenSees".
-  If the style is not to your liking, you can modify it in the "Define your Language" settings.
+  -Download the OpenSeesLang.xml file in the repository
+  -Open your Notepad++, select "Language" on the menu bar, and choose "Define your Language".
+  -Press the "Import" button, and select the OpenSeesLang.xml file.
+  -Restart Notepad++.
+  -When in a .tcl file, select "Language", and choose "OpenSees".
+  -If the style is not to your liking, you can modify it in the "Define your Language" settings.
   
 ## Running OpenSees in Notepad++:
   *Run a Tcl file in OpenSees directly from Notepad++.*
   
   **Installation Instructions**\
-  Press F5, and in the run command box, put the following:
+  While in Notepad++, press F5. 
+  In the run command box, put the following:
   
 	cmd /K cd /d "$(CURRENT_DIRECTORY)" && "C:\Program Files\OpenSees\OpenSees.exe" "$(FULL_CURRENT_PATH)"
 	
@@ -46,7 +47,7 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 		</function>
 	</parser>
 	
-## Autocompletion for Tcl and OpenSees functions
+## Autocompletion for Tcl and OpenSees functions:
   *Autocompletion of OpenSees and Tcl functions with function argument tooltips.*
 
   
