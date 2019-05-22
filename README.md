@@ -25,7 +25,7 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
   
 ## Variable List:
-  *A list of all defined variables in a .Tcl file*
+  *A list of all defined variables in a .Tcl file.*
   
   **Installation Instructions**\
   Open the functionList.xml file in "%appdata%/Notepad++", and add the following:
@@ -38,8 +38,8 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 
 	<parser id="OpenSees_variables" displayName="Variable" commentExpr="(#)">
 		<function
-				mainExpr="^[\t ]*(set|append|variable|lappend)[\t ]+\w+"
-				displayMode="$variableName">
+			mainExpr="^[\t ]*(set|append|variable|lappend)[\t ]+\w+"
+			displayMode="$variableName">
 			<functionName>
 				<nameExpr expr="((?<=set\s)|(?<=variable\s)|(?<=append\s)|(?<=lappend\s))\s*\w+"/>
 			</functionName>
@@ -47,6 +47,6 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 	</parser>
 	
 ## Autocompletion for Tcl and OpenSees functions
-  To have autocompletion of OpenSees functions as well as tooltips with all the arguments,
+  *Autocompletion of OpenSees and Tcl functions with function argument tooltips.*
 
   
