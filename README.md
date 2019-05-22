@@ -1,7 +1,6 @@
 # OpenSeesNotePadPlusPlus
 Custom Language (and more) for Notepad++. It has the same functionality as the Tcl language option in Notepad++, with added features for OpenSees Commands. Modified from work done by aliirmak (https://github.com/aliirmak/notepad-plus-plus-opensees/blob/master/OpenSees.xml)
 
-Instructions:
 ## OpenSees Language:
   *A User-Defined language that formats OpenSees files according to OpenSees and Tcl commands.*\
   
