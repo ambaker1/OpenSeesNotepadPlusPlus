@@ -58,6 +58,9 @@ Alex Baker, 2019. ambaker1@mtu.edu
   **To see an example of this, see the functionList.xml file on this repository.**
   
 ## Autocompletion for Tcl and OpenSees functions:
-  *Autocompletion of OpenSees and Tcl functions with function argument tooltips.*
+  *Autocompletion of OpenSees and Tcl functions.*
+  
+  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
+  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
 
   
