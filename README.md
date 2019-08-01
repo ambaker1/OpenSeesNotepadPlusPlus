@@ -20,11 +20,17 @@ Alex Baker, 2019. ambaker1@mtu.edu
   
   **Installation Instructions**\
   While in Notepad++, press F5.\
-  In the run command box, put the following:
+  In the run command box, put in one of the following:
   
-	cmd /K cd /d "$(CURRENT_DIRECTORY)" && "C:\Program Files\OpenSees\OpenSees.exe" "$(FULL_CURRENT_PATH)"
+  Command Line Version:
+  
+	cmd /K cd /d "$(CURRENT_DIRECTORY)" && OpenSees "$(FULL_CURRENT_PATH)"
 	
-  *Note: If your OpenSees program is somewhere else, you may need to adjust that portion.*
+  Powershell Version:
+	
+	powershell -noexit -command Set-Location "$(CURRENT_DIRECTORY)"; OpenSees "$(FULL_CURRENT_PATH)"
+	
+  *Note: If you have not set OpenSees in your PATH, change "OpenSees" to the full filepath where the executable is.*
   
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
   
