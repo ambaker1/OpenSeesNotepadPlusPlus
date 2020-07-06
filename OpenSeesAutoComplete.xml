@@ -160,6 +160,7 @@
         <KeyWord name="fconfigure" />
         <KeyWord name="fcopy" />
         <KeyWord name="fiber" />
+        <KeyWord name="Fiber" />
         <KeyWord name="FiberInt" />
         <KeyWord name="file" />
         <KeyWord name="fileevent" />
