@@ -34,6 +34,12 @@ Alex Baker, 2020. ambaker1@mtu.edu
   
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
   
+## Autocompletion for Tcl and OpenSees functions:
+  *Autocompletion of OpenSees and Tcl functions.*
+
+  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
+  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
+  
 ## Variable List:
   *A list of all defined variables in a .Tcl file.*
   
@@ -62,11 +68,5 @@ Alex Baker, 2020. ambaker1@mtu.edu
   If it is redefined (or appended) the order of the definition will show up in the list.
   
   **To see an example of this, see the functionList.xml file on this repository.**
-  
-## Autocompletion for Tcl and OpenSees functions:
-  *Autocompletion of OpenSees and Tcl functions.*
-  
-  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
-  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
 
   
