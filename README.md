@@ -13,7 +13,7 @@ Alex Baker, 2020. ambaker1@mtu.edu
   Press the "Import" button, and select the OpenSeesLang.xml file.\
   Restart Notepad++.\
   When in a .tcl file, select "Language", and choose "OpenSees".\
-  If the style is not to your liking, you can modify it in the "Define your Language" settings.\
+  If the style is not to your liking, you can modify it in the "Define your Language" settings.
   
 ## Running OpenSees in Notepad++:
   *Run a Tcl file in OpenSees directly from Notepad++.*
