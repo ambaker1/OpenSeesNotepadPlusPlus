@@ -15,6 +15,12 @@ Alex Baker, 2020. ambaker1@mtu.edu
   When in a .tcl file, select "Language", and choose "OpenSees".\
   If the style is not to your liking, you can modify it in the "Define your Language" settings.
   
+## Autocompletion for Tcl and OpenSees functions:
+  *Autocompletion of OpenSees and Tcl functions.*
+
+  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
+  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
+  
 ## Running OpenSees in Notepad++:
   *Run a Tcl file in OpenSees directly from Notepad++.*
   
@@ -62,11 +68,5 @@ Alex Baker, 2020. ambaker1@mtu.edu
   If it is redefined (or appended) the order of the definition will show up in the list.
   
   **To see an example of this, see the functionList.xml file on this repository.**
-  
-## Autocompletion for Tcl and OpenSees functions:
-  *Autocompletion of OpenSees and Tcl functions.*
-  
-  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
-  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
 
   
