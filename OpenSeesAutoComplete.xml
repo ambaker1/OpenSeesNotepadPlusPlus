@@ -195,6 +195,7 @@
         <KeyWord name="getPID" />
         <KeyWord name="gets" />
         <KeyWord name="getTime" />
+        <KeyWord name="GimmeMCK" />
         <KeyWord name="glob" />
         <KeyWord name="global" />
         <KeyWord name="groundMotion" />
