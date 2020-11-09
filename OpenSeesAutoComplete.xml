@@ -284,6 +284,7 @@
         <KeyWord name="nodeBounds" />
         <KeyWord name="nodeCoord" />
         <KeyWord name="nodeDisp" />
+        <KeyWord name="nodeDOFs" />
         <KeyWord name="nodeEigenvector" />
         <KeyWord name="nodeMass" />
         <KeyWord name="nodePressure" />
