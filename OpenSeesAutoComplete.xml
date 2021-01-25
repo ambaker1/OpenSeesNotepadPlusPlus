@@ -261,6 +261,7 @@
         <KeyWord name="MinMax" />
         <KeyWord name="MinUnbalDispNorm" />
         <KeyWord name="modalDamping" />
+        <KeyWord name="modalProperties" />
         <KeyWord name="model" />
         <KeyWord name="ModElasticBeam2d" />
         <KeyWord name="ModifiedNewton" />
@@ -373,6 +374,7 @@
         <KeyWord name="remove" />
         <KeyWord name="rename" />
         <KeyWord name="reset" />
+        <KeyWord name="responseSpectrum" />
         <KeyWord name="return" />
         <KeyWord name="rigidDiaphragm" />
         <KeyWord name="rigidLink" />
@@ -418,7 +420,7 @@
         <KeyWord name="ShellDKGQ" />
         <KeyWord name="ShellDKGT" />
         <KeyWord name="ShellMITC4" />
-	<KeyWord name="ShellMITC9" />
+        <KeyWord name="ShellMITC9" />
         <KeyWord name="ShellNL" />
         <KeyWord name="ShellNLDKGQ" />
         <KeyWord name="ShellNLDKGT" />
