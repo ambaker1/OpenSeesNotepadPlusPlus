@@ -223,6 +223,7 @@
         <KeyWord name="J2Plasticity" />
         <KeyWord name="join" />
         <KeyWord name="Joint2D" />
+        <KeyWord name="Joint3D" />
         <KeyWord name="KikuchiAikenHDR" />
         <KeyWord name="KikuchiAikenLRB" />
         <KeyWord name="KikuchiBearing" />
