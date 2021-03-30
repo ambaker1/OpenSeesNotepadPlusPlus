@@ -306,6 +306,7 @@
         <KeyWord name="package" />
         <KeyWord name="Parallel" />
         <KeyWord name="parameter" />
+        <KeyWord name="parray" />
         <KeyWord name="patch" />
         <KeyWord name="Path" />
         <KeyWord name="pattern" />
