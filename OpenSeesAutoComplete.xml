@@ -458,7 +458,6 @@
         <KeyWord name="system" />
         <KeyWord name="systemSize" />
         <KeyWord name="tailcall" />
-        <KeyWord name="tclLog" />
         <KeyWord name="tell" />
         <KeyWord name="TendonL01" />
         <KeyWord name="test" />
