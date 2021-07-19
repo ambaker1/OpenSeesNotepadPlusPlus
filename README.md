@@ -3,18 +3,19 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 
 Code used for example pictures taken from https://opensees.berkeley.edu/wiki/index.php/Elastic_Frame_Example
 
-This work was done with Notepad++ 7.9.1, Tcl 8.6.10, and OpenSees 3.2.2
+This work was done with Notepad++ 8.1.1, Tcl 8.6.10, and OpenSees 3.3.0
 Alex Baker, 2021. ambaker1@mtu.edu
 
 ## OpenSees Language:
   *A User-Defined language that formats OpenSees files according to OpenSees and Tcl commands.*
   
   **Installation Instructions**\
-  Download the OpenSeesLang.xml file in the repository.\
-  Open your Notepad++, select "Language" on the menu bar, and choose "Define your Language".\
-  Press the "Import" button, and select the OpenSeesLang.xml file.\
+  Download the OpenSeesLight.xml or OpenSeesDark.xml file in the repository.\
+  Open your Notepad++, select "Language" on the menu bar, and choose "User Defined Language/Define your Language".\
+  Click the "Import" button, and select the OpenSeesLight.xml or OpenSeesDark.xml file.\
+  For dark themes, make sure that the "Enable global background color" is checked within "Settings/Style Configurator".\
   Restart Notepad++.\
-  When in a .tcl file, select "Language", and choose "OpenSees".\
+  While in an OpenSees .tcl file, select "Language", and choose "OpenSees".\
   If the style is not to your liking, you can modify it in the "Define your Language" settings.
   
 ## Autocompletion for Tcl and OpenSees functions:
