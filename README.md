@@ -1,4 +1,4 @@
-# OpenSeesNotePadPlusPlus
+# OpenSeesNotepadPlusPlus
 Custom Language (and more) for Notepad++. It has the same functionality as the Tcl language option in Notepad++, with added features for OpenSees Commands. Modified from work done by aliirmak (https://github.com/aliirmak/notepad-plus-plus-opensees/blob/master/OpenSees.xml)
 
 Code used for example pictures taken from https://opensees.berkeley.edu/wiki/index.php/Elastic_Frame_Example
