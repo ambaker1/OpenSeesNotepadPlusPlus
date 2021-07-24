@@ -378,11 +378,13 @@
         <KeyWord name="rename" />
         <KeyWord name="reset" />
         <KeyWord name="responseSpectrum" />
+        <KeyWord name="restore" />
         <KeyWord name="return" />
         <KeyWord name="rigidDiaphragm" />
         <KeyWord name="rigidLink" />
         <KeyWord name="RJWatsonEqsBearing" />
         <KeyWord name="RotationShearCurve" />
+        <KeyWord name="save" />
         <KeyWord name="SAWS" />
         <KeyWord name="scan" />
         <KeyWord name="sdfResponse" />
