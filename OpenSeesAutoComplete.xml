@@ -398,6 +398,7 @@
         <KeyWord name="sectionWeight" />
         <KeyWord name="seek" />
         <KeyWord name="SelfCentering" />
+        <KeyWord name="send" />
         <KeyWord name="sensitivityAlgorithm" />
         <KeyWord name="sensitivityIntegrator" />
         <KeyWord name="sensLambda" />
