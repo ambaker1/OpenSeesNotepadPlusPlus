@@ -33,11 +33,11 @@ Alex Baker, 2021. ambaker1@mtu.edu
   
   Command Line Version:
   
-	cmd /K cd /d "$(CURRENT_DIRECTORY)" && OpenSees "$(FULL_CURRENT_PATH)"
+	cmd /K cd /d "$(CURRENT_DIRECTORY)" && OpenSees "$(FILE_NAME)"
 	
   Powershell Version:
 	
-	powershell -noexit -command Set-Location \"$(CURRENT_DIRECTORY)\"; OpenSees \"$(FULL_CURRENT_PATH)\"
+	powershell -noexit -command Set-Location -LiteralPath '$(CURRENT_DIRECTORY)'; OpenSees '$(FILE_NAME)'
 	
   *Note: If you have not set OpenSees in your PATH, change "OpenSees" to the full filepath where the executable is.*
   
