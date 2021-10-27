@@ -42,34 +42,4 @@ Alex Baker, 2021. ambaker1@mtu.edu
   *Note: If you have not set OpenSees in your PATH, change "OpenSees" to the full filepath where the executable is.*
   
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
-  
-## Variable List:
-  *A list of all defined variables in a .Tcl file.*
-  
-  **Installation Instructions**\
-  Open the functionList.xml file in "%appdata%/Notepad++", and add the following:
-  
-  To the associations region, add:
-  
-	<association id=     "OpenSees_variables" userDefinedLangName="OpenSees"       />	
-	
-  To the parser region, add: 
 
-	<parser id="OpenSees_variables" displayName="Variable" commentExpr="(#)">
-		<function
-			mainExpr="^[\t ]*(set|append|variable|lappend)[\t ]+\w+"
-			displayMode="$variableName">
-			<functionName>
-				<nameExpr expr="((?<=set\s)|(?<=variable\s)|(?<=append\s)|(?<=lappend\s))\s*\w+"/>
-			</functionName>
-		</function>
-	</parser>
-	
-  Save the file, and close and re-open Notepad++.\
-  Now, any variables defined with **set, variable, append, or lappend** will show up in the "Function List"\
-  Double-clicking on the variable name in "Function List" takes you to where in the code it is defined.\
-  If it is redefined (or appended) the order of the definition will show up in the list.
-  
-  **To see an example of this, see the functionList.xml file on this repository.**
-
-  
