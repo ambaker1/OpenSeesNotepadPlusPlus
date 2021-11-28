@@ -27,7 +27,6 @@ Alex Baker, 2021. ambaker1@mtu.edu
 ## Running OpenSees in Notepad++:
   *Run a Tcl file in OpenSees directly from Notepad++.*
   
-  **Installation Instructions**\
   While in Notepad++, press F5.\
   In the run command box, put in one of the following:
   
