@@ -3,7 +3,7 @@ Custom Language (and more) for Notepad++. It has the same functionality as the T
 
 Code used for example pictures taken from https://opensees.berkeley.edu/wiki/index.php/Elastic_Frame_Example
 
-This work was done with Notepad++ 8.1.1, Tcl 8.6.10, and OpenSees 3.3.0
+This work was done with Notepad++ 8.1.9, Tcl 8.6.10, and OpenSees 3.3.0
 Alex Baker, 2021. ambaker1@mtu.edu
 
 ## OpenSees Language:
@@ -21,8 +21,8 @@ Alex Baker, 2021. ambaker1@mtu.edu
 ## Autocompletion for Tcl and OpenSees functions:
   *Autocompletion of OpenSees and Tcl functions.*
 
-  Rename the OpenSeesAutoComplete.xml file to OpenSees.xml, and place it in the Program Files/Notepad++/autoCompletion folder.
-  Restart Notepad++, make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
+  Copy "OpenSees.xml" to the "autoCompletion" folder within your Notepad++ installation.
+  Restart Notepad++, and make sure that autocompletion is turned on in *Settings -> Preferences -> Auto-Completion*.
   
 ## Running OpenSees in Notepad++:
   *Run a Tcl file in OpenSees directly from Notepad++.*
@@ -41,4 +41,7 @@ Alex Baker, 2021. ambaker1@mtu.edu
   *Note: If you have not set OpenSees in your PATH, change "OpenSees" to the full filepath where the executable is.*
   
   If you click "save", you can save it as a shortcut. I have mine set as CTRL-SHIFT-ENTER
+
+## Contributing
+If there are Tcl commands, OpenSees commands, or OpenSees keywords missing, either raise a GitHub issue about it, or fork the repository and submit a pull request. If you are submitting a pull request and just adding keywords, please do not modify the XML files directly. Just add the keywords to the corresponding text files in the "source" directory of the repository, and the UpdateLangFiles.tcl script will take care of the rest.
 
