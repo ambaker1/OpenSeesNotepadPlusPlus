@@ -7,11 +7,11 @@ set KeyWords2 [join [read [open KeyWords2.txt r]]]; # OpenSees commands
 set KeyWords3 [join [read [open KeyWords3.txt r]]]; # OpenSees objects
 
 # Update autocomplete
-set AutoCompleteXML [read -nonewline [open ../OpenSeesAutoComplete.xml r]]
+set AutoCompleteXML [read -nonewline [open ../OpenSees.xml r]]
 set AutoCompleteLines [split $AutoCompleteXML \n]
 set AutoCompleteHeader [join [lrange $AutoCompleteLines 0 3] \n]
 set AutoCompleteFooter [join [lrange $AutoCompleteLines end-1 end] \n]
-set fid [open ../OpenSeesAutoComplete.xml w]
+set fid [open ../OpenSees.xml w]
 puts $fid $AutoCompleteHeader
 foreach KeyWord [lsort [concat $KeyWords1 $KeyWords2 $KeyWords3]] {
     puts $fid "        <KeyWord name=\"$KeyWord\" />"
