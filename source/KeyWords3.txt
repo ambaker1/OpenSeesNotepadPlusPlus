@@ -89,6 +89,7 @@ Element
 EnergyIncr
 enhancedQuad
 ENT
+EnvelopeDrift
 EnvelopeElement
 EnvelopeNode
 Explicitdifference

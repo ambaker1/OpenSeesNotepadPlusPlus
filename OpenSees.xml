@@ -76,6 +76,7 @@
         <KeyWord name="ElastomericX" />
         <KeyWord name="Element" />
         <KeyWord name="EnergyIncr" />
+        <KeyWord name="EnvelopeDrift" />
         <KeyWord name="EnvelopeElement" />
         <KeyWord name="EnvelopeNode" />
         <KeyWord name="Explicitdifference" />
